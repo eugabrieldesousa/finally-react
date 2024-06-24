@@ -1,5 +1,6 @@
 import "./App.css";
 import FirstComponent from "./components/FirstComponent";
+import TemplateExpressions from "./components/TemplateExpressions";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Hello World</h1>
       <p>Let's go</p>
       <FirstComponent />
+      <TemplateExpressions />
     </>
   );
 }
